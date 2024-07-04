@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "label": "Familienname",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1932lf3",
+        "columns": null
+      },
+      "id": "Field_0sufr8f",
+      "key": "fam_name"
+    },
+    {
+      "label": "Vorname Elternteil",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0htmaf8",
+        "columns": null
+      },
+      "id": "Field_16m0kaf",
+      "key": "vorname"
+    },
+    {
+      "label": "Name Kind",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1wyoai8",
+        "columns": null
+      },
+      "id": "Field_01zlhol",
+      "key": "textfield_6er9rf"
+    },
+    {
+      "values": [
+        {
+          "label": "Erdnüsse",
+          "value": "peanuts"
+        },
+        {
+          "label": "Haselnüsse",
+          "value": "hazelnut"
+        },
+        {
+          "label": "Gluten",
+          "value": "glutes"
+        },
+        {
+          "label": "Laktose",
+          "value": "lactose"
+        },
+        {
+          "label": "Vegan",
+          "value": "vegan"
+        }
+      ],
+      "label": "Allergien/Unverträglichkeiten",
+      "type": "checklist",
+      "layout": {
+        "row": "Row_0f90exs",
+        "columns": null
+      },
+      "id": "Field_0h6g8u9",
+      "key": "checklist_unbeqf"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Gewünschte reservation (Datum)",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0jvf1vw",
+        "columns": null
+      },
+      "id": "Field_0v2dhim",
+      "key": "datetime_mzfjdra"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Geburtsdatum Kind",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0jvf1vw",
+        "columns": null
+      },
+      "id": "Field_0haac59",
+      "key": "datetime_34m75m"
+    },
+    {
+      "label": "Bemerkungen",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1tlecnn",
+        "columns": null
+      },
+      "id": "Field_07gendt",
+      "key": "Name",
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0z34bas",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}
